@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="lib" path="D:/Users/Leon/Desktop/Leon/Development/JAVA/eclipse-2020-09/lionSynth11/stdlib-package.jar"/>
+	<classpathentry kind="lib" path="D:/Users/Leon/Desktop/Leon/Development/JAVA/eclipse-2020-09/git/personal/lionSynth11/stdlib-package.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
