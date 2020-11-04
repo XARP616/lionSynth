@@ -154,7 +154,7 @@ public class SynthWindow extends JFrame {
 			try (FileInputStream fis = new FileInputStream("logger.properties")) {
 	            LogManager.getLogManager().readConfiguration(fis);
 	        } catch (IOException e) {
-	            logger.log(Level.SEVERE, "No se pudo leer el fichero de configuración del logger");
+	            logger.log(Level.SEVERE, "Logger config file could not be read.");
 	        }
 			
 			guiComponentDeclaration();
@@ -338,7 +338,7 @@ public class SynthWindow extends JFrame {
 							
 							
 						} catch (FileNotFoundException x) {
-							System.err.println("No sé cómo te las has arreglado para borrar un archivo en tan poco tiempo...");
+							System.err.println("No sï¿½ cï¿½mo te las has arreglado para borrar un archivo en tan poco tiempo...");
 							x.printStackTrace();
 						} catch (IOException x) {
 							System.err.println("...");
@@ -1161,8 +1161,8 @@ public class SynthWindow extends JFrame {
 			// TIME DIVISIONS
 			//int bpm = 128; // BEATS PER MINUTE
 			//double bps = bpm / 60; // BEATS PER SECOND
-			//double eighthNoteDuration = bps / 8; // duración de una corchea 
-			//double quarterNoteDuration = bps / 4; // duración de una corchea
+			//double eighthNoteDuration = bps / 8; // duraciï¿½n de una corchea 
+			//double quarterNoteDuration = bps / 4; // duraciï¿½n de una corchea
 			
 			//double cutoffFrequency = 10000.00;
 			
